@@ -70,7 +70,11 @@ li {
     //font-style: italic;
     font-size: 28px;
     font-family: 'Oswald', sans-serif;
-    text-transform: none;
+
+}
+
+#ourservices{
+  margin-bottom: 2em;
 }
 
 .section-title p {
@@ -180,7 +184,7 @@ li {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: white;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -189,6 +193,17 @@ li {
 
 }
 
+#welcome-section1{
+
+    color: #999;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0 0 10px;
+}
+
+#taxes{
+  text-align: center;
+}
 
 
 
@@ -514,7 +529,7 @@ li {
 }
 
 #main-slide .carousel-indicators {
-	bottom: 30px;
+	bottom: 11px;
 }
 
 .carousel-indicators li{
@@ -527,7 +542,7 @@ li {
 
 #main-slide .carousel-control.left,
 #main-slide .carousel-control.right {
-	opacity: 1;
+	opacity: 10;
 	filter: alpha(opacity=100);
 	background-image: none;
 	background-repeat: no-repeat;
@@ -575,7 +590,7 @@ li {
 #main-slide .slider-content h1{
 	font-size: 50px;
     font-weight: 700;
-    line-height: 62px;
+    line-height: 68px;
     letter-spacing: 5px;
     margin-bottom: 55px;
     color: black;
@@ -588,7 +603,7 @@ li {
 }
 
 #main-slide .slider-content p{
-	font-size: 30px;
+	font-size: 24px;
     font-weight: 300;
     line-height: 35px;
     letter-spacing: 1px;
@@ -650,8 +665,8 @@ li {
 }
 
 .carousel .item.active .animated3 {
-	-webkit-animation: flipInX 2s ease-in-out 800ms both;
-	animation: flipInX 2s ease-in-out 800ms both;
+	-webkit-animation: rollIn 2s ease-in-out 800ms both;
+	animation: rollIn 2s ease-in-out 800ms both;
 }
 
 
@@ -944,9 +959,9 @@ and (min-width : 551px){
    height: 100%;
    position: relative;
    text-align: center;
-   cursor: default;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
+   /*cursor: default;*/
+    /*transition: all 0.3s;*/
+    /*-webkit-transition: all 0.7s;*/
 }
 
 .portfolio-item img {
@@ -978,7 +993,7 @@ and (min-width : 551px){
    position: absolute;
    overflow: hidden;
    top: 0;
-   left: 0;
+   /*left: 0;*/
     opacity: 0;
     filter: Alpha(Opacity=0);
     transition: all 0.3s;
@@ -1122,7 +1137,7 @@ and (min-width : 551px){
 
 .fun-facts {
     background: url(../images/parallax/bg-02.jpg);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: cover;
     padding-top: 120px;
     padding-bottom: 80px;
@@ -1851,7 +1866,7 @@ iframe {
     width:100px;
     padding:20px 18px 14px 20px;
     position:fixed;
-    z-index:1993;
+    z-index:1;
     top:90px;
     right:0;
     background-color:#fff;
@@ -1861,7 +1876,7 @@ iframe {
     -moz-transition:all .4s ease-in-out;
     -ms-transition:all .4s ease-in-out;
     -o-transition:all .4s ease-in-out;
-    transition:all .4s ease-in-out;
+    /*transition:all .4s ease-in-out;*/
 }
 .colors-switcher > p {
     font-size: 11px;
