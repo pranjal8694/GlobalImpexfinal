@@ -1015,6 +1015,17 @@ and (min-width : 551px){
 #paper {
   height: 380px;
 }
+
+#wood{
+  height: 379px;
+    width: 423px;
+}
+
+#meenakari{
+  height: 379px;
+    width: 423px;
+}
+
 .portfolio-item:hover .portfolio-caption {
     opacity: 1;
     filter: Alpha(Opacity=100);
